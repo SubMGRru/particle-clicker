@@ -8,7 +8,7 @@
     "info": "html/arinsa.html",
     "state": {
       "reputation": 1e0,
-      "cost": 1e1,
+      "cost": 4e1,
       "info_levels": [ 1, 5, 10, 15, 20 ]
     }
   }
