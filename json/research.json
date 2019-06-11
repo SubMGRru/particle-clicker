@@ -46,7 +46,7 @@
     "image": "assets/icons/svg/weak.svg",
     "info": "html/arinsa.html",
     "state": {
-      "reputation": 3e3,
+      "reputation": 3e0,
       "cost": 4e4,
       "info_levels": [ 1, 5, 10, 15, 20 ]
     }
