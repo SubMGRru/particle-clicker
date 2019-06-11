@@ -20,7 +20,7 @@
     "image": "assets/icons/svg/weak.svg",
     "info": "html/arinsa.html",
     "state": {
-      "reputation": 1e0,
+      "reputation": 2e0,
       "cost": 4e1,
       "info_levels": [ 1, 5, 10, 15, 20 ]
     }
@@ -33,7 +33,7 @@
     "image": "assets/icons/svg/weak.svg",
     "info": "html/arinsa.html",
     "state": {
-      "reputation": 2e2,
+      "reputation": 2e0,
       "cost": 4e4,
       "info_levels": [ 1, 5, 10, 15, 20 ]
     }
@@ -47,7 +47,7 @@
     "info": "html/arinsa.html",
     "state": {
       "reputation": 3e0,
-      "cost": 4e4,
+      "cost": 5e4,
       "info_levels": [ 1, 5, 10, 15, 20 ]
     }
   }
