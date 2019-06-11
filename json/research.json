@@ -1,10 +1,23 @@
 [
   {
     "key": "arinsa",
-    "name": "Дружелюбный ген",
-    "description": "Пора бы начать отношения с генами Аринсы!",
+    "name": "Котик Арина",
+    "description": "Пора бы начать отношения с генами Арины!",
     "cost_increase": 3.8,
-    "image": "assets/icons/png/arinsa.png",
+    "image": "assets/icons/png/svg/weak.svg",
+    "info": "html/arinsa.html",
+    "state": {
+      "reputation": 1e0,
+      "cost": 4e1,
+      "info_levels": [ 1, 5, 10, 15, 20 ]
+    }
+  },
+  {
+    "key": "petr",
+    "name": "Кот Петр",
+    "description": "Поможет более точно разобрать настроение котиков, ускорет добычу ДНК.",
+    "cost_increase": 3.8,
+    "image": "assets/icons/svg/weak.svg",
     "info": "html/arinsa.html",
     "state": {
       "reputation": 1e0,
