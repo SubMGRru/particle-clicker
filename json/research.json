@@ -4,7 +4,7 @@
     "name": "Котик Арина",
     "description": "Пора бы начать отношения с генами Арины!",
     "cost_increase": 3.8,
-    "image": "assets/icons/png/svg/weak.svg",
+    "image": "assets/icons/svg/weak.svg",
     "info": "html/arinsa.html",
     "state": {
       "reputation": 1e0,
