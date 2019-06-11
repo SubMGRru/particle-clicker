@@ -24,5 +24,18 @@
       "cost": 4e1,
       "info_levels": [ 1, 5, 10, 15, 20 ]
     }
+  },
+    {
+    "key": "putin",
+    "name": "Кот Путин",
+    "description": "Улучшит условия содержания котиков в России.",
+    "cost_increase": 3.8,
+    "image": "assets/icons/svg/weak.svg",
+    "info": "html/arinsa.html",
+    "state": {
+      "reputation": 1e0,
+      "cost": 4e1,
+      "info_levels": [ 1, 5, 10, 15, 20 ]
+    }
   }
 ]
