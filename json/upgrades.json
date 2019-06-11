@@ -1,22 +1,22 @@
 [
   {
     "key": "upgrade-masterstudents1",
-    "name": "Детская комната",
-    "description": "Комната для Ваших студентов",
-    "effect": "Студенты приносят +2 ДНК в секунду.",
+    "name": "Kinderzimmer",
+    "description": "A shared room for all your Master students. Used to be a server room.",
+    "effect": "Master Students produce +2 data per second.",
     "icon": "fa-group",
-    "cost": 6e4,
+    "cost": 4e2,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
     "requirements": [{ "key": "workers-masterstudents", "property": "hired", "threshold": 5 }],
     "constant": 2
   },
   {
     "key": "upgrade-masterstudents2",
-    "name": "Аквариум",
-    "description": "Нет ничего лучше, чем наслаждаться рыбками, ням!",
-    "effect": "Студенты приносят в ДВА раза больше ДНК!",
+    "name": "Own desk",
+    "description": "Not having to share one is a blessing.",
+    "effect": "Master Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 8e6,
+    "cost": 4e3,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
     "requirements": [
       { "key": "upgrade-masterstudents1", "property": "used", "threshold": 1 },
@@ -26,11 +26,11 @@
   },
   {
     "key": "upgrade-masterstudents3",
-    "name": "Сервер на i7",
-    "description": "Теперь все вычисления выполняются на компьютере с быстрой работой!",
-    "effect": "Студенты приносят в ДВА раза больше ДНК!",
+    "name": "Grid Access",
+    "description": "Give your Master students access to high performance computing resources.",
+    "effect": "Master Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 8e8,
+    "cost": 4e4,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
     "requirements": [{ "key": "upgrade-masterstudents2", "property": "used", "threshold": 1 }],
     "factor": 2
