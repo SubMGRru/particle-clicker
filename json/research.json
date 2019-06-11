@@ -3,7 +3,7 @@
     "key": "arinsa",
     "name": "Котик Арина",
     "description": "Пора бы начать отношения с генами Арины!",
-    "cost_increase": 3.8,
+    "cost_increase": 2.2,
     "image": "assets/icons/svg/weak.svg",
     "info": "html/arinsa.html",
     "state": {
@@ -16,7 +16,7 @@
     "key": "petr",
     "name": "Кот Петр",
     "description": "Поможет более точно разобрать настроение котиков, ускорет добычу ДНК.",
-    "cost_increase": 3.8,
+    "cost_increase": 2.2,
     "image": "assets/icons/svg/weak.svg",
     "info": "html/arinsa.html",
     "state": {
@@ -29,12 +29,25 @@
     "key": "putin",
     "name": "Кот Путин",
     "description": "Улучшит условия содержания котиков в России.",
-    "cost_increase": 3.8,
+    "cost_increase": 2.2,
     "image": "assets/icons/svg/weak.svg",
     "info": "html/arinsa.html",
     "state": {
-      "reputation": 2e0,
-      "cost": 4e1,
+      "reputation": 2e2,
+      "cost": 4e4,
+      "info_levels": [ 1, 5, 10, 15, 20 ]
+    }
+  },
+    {
+    "key": "ilya",
+    "name": "Кот Сухарь",
+    "description": "Доказано, что котикам нравятся сухарики!",
+    "cost_increase": 2.2,
+    "image": "assets/icons/svg/weak.svg",
+    "info": "html/arinsa.html",
+    "state": {
+      "reputation": 3e3,
+      "cost": 4e4,
       "info_levels": [ 1, 5, 10, 15, 20 ]
     }
   }
